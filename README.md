@@ -20,6 +20,7 @@ This project focuses on:
 - **Size:** ~185MB (compressed)
 - **Source:** Benford’s Datasets Collection
 
+- [📥 Download .CSV formtted Dataset (twitter_data.csv.gz)](https://drive.google.com/file/d/1Pt0_6XIAy9LbJR2VRq3XrN62x2ZG5aF1/view?usp=drive_link)
 ---
 
 ## 📊 Techniques Used
