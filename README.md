@@ -16,8 +16,8 @@ This project focuses on:
 
 ## 📂 Dataset Information
 
-- **File:** `twitter_data.csv`
-- **Size:** ~420MB
+- **File:** `twitter_data.csv.gz`
+- **Size:** ~185MB (compressed)
 - **Source:** Benford’s Datasets Collection
 
 ---
@@ -29,6 +29,17 @@ This project focuses on:
 - Statistical Analysis (Benford’s Law, Chi-square test)
 - Feature Understanding and Distribution Plots
 
+---
+If you're working with the compressed `.csv.gz` file, you can load it directly in Python:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("twitter_data.csv.gz", compression='gzip')
+```
+Or, extract it using:
+- gunzip twitter_data.csv.gz (Linux/macOS/WSL)
+- 7-Zip (Windows)
 ---
 
 ## 🔍 Key Visualizations
@@ -86,8 +97,8 @@ scipy
 pip install -r requirements.txt
 ```
 
-3. **Place twitter_data.csv in the root directory**
-4. **Run twitter_eda_benford.ipynb using Jupyter Notebook or Google Colab**
+3. **Place twitter_data.csv.gz in the root directory**
+4. **Run WJD.Ai.ipynb using Jupyter Notebook or Google Colab**
 
 ## 📘 License
 - This project is for academic and research purposes only.
